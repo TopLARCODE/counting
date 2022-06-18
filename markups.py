@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 mainMenu = InlineKeyboardMarkup(row_width=2)
-btnRandom = InlineKeyboardButton(text="👤 Обратится", callback_data="btnRandom")
+btnRandom = InlineKeyboardButton(text="👤 Обратиться", callback_data="btnRandom")
 btnUrl = InlineKeyboardButton(text="✅ Wildberries", url="https://www.wildberries.ru/seller/501108")
 
 supportMenu = InlineKeyboardMarkup(row_width=2)
