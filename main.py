@@ -19,7 +19,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
-    await bot.send_message(ADMIN_ID, "{0.username} написал(а) /start".format(message.from_user), parse_mode="HTML")
+    await bot.send_message(ADMIN_ID, "{0.username1} написал(а) /start".format(message.from_user), parse_mode="HTML")
     global waiting
     waiting = 0
     if message.chat.type == 'private':
